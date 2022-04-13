@@ -27,7 +27,7 @@ yarn backend
 [] - Filtrar pedidos por status
 [] - Implementar JS usando composition API
 [] - Tornar aplicação responsiva
-[] - Implementar aba concluidos
+[X] - Implementar aba concluidos
 [] - Implementar motivo de cancelamento
 [] - Refatorar codigos repetidos para helpers.js
 ....
