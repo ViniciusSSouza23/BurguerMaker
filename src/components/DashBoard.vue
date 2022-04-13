@@ -95,11 +95,12 @@ export default {
     },
     async createFinalized(id)
     {
-      const burguer = await fetch(`htpp://localhost:3000/burgers/${id}`);
+      const burguer = await fetch(`http://localhost:3000/burgers/${id}`);
       const res = await burguer.json();
       res.status = "Finalizado";
       //avoid erros at id number
       res.id = "";
+      console.log(res)
       const dataJson = JSON.stringify(res);
       const finalized = await fetch("http://localhost:3000/concluidos",{
         method: "POST",

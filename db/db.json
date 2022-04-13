@@ -105,5 +105,17 @@
       "id": 2
     }
   ],
-  "concluidos": []
+  "concluidos": [
+    {
+      "nome": "asdas",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    }
+  ]
 }
